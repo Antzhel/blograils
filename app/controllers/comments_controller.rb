@@ -7,6 +7,8 @@ class CommentsController < ApplicationController
     @comments = Comment.all
   end
 
+
+
   # GET /comments/1
   # GET /comments/1.json
   def show
